@@ -1,0 +1,40 @@
+.navbarContainer {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 7rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+.menuOpen {
+    width: 100vw;
+    position: fixed;
+    top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    transform: translateY(-140%);
+    transition: transform 1.2s ease-in-out;
+    z-index: 1;
+}
+
+.opened {
+    transform: translateY(0%);
+}
+.first, .second {
+    display: none;
+}
+@media only screen and (min-width: 1024px) {
+    .first, .second {
+        display: block;
+    }
+    .navbarContainer {
+        background-color: transparent;
+    }
+}
