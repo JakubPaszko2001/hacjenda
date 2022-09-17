@@ -1,0 +1,120 @@
+import React from 'react'
+
+const Main = () => {
+  return (
+    <div>
+        <div class='flex justify-center items-center text-2xl pt-12 pb-12'>
+            <h1>Trzy propozycje menu weselnego</h1>
+        </div>
+        <div class='flex flex-col w-4/5 m-auto lg:flex-row lg:pb-20 lg:w-[95%]'>
+          <div class='w-full flex justify-center lg:pr-10'>
+            {/* <div class='w-1/6 bg-red-500'></div> */}
+            <div class='flex flex-col justify-center items-center w-full bg-blue-500 pt-8 pb-8 relative max-w-sm'>
+            <div class='absolute bottom-[-20px] right-[-20px] w-full h-full bg-yellow-500 z-[-1]'></div>
+            <div class='z-40'>
+              <div class='flex justify-center items-center'>
+                <h1 class='pb-4'>MENU WESELNE</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>I ZUPY</h1>
+                <h1 class='pb-4'>Rosół z makaronem / Strogonow</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>II DANIE GŁÓWNE</h1>
+                <h1>Schab pieczony w sosie kurkowym</h1>
+                <h1 class='pb-4'>(ziemniaki gotowane + mix sałat)</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>III DANIE GŁÓWNE</h1>
+                <h1>Karkówka po węgiersku</h1>
+                <h1>Zawijaniec drobiowy w jajku z pieczarkami</h1>
+                <h1 class='pb-4'>(kluski śląskie, warzywa na gorąco)</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>IV DANIE GŁÓWNE</h1>
+                <h1 class='pb-4'>Barszcz z pasztecikami</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>DZIECI</h1>
+                <h1>Nuggetsy z kurczaka / frytki / mix sałat</h1>
+              </div>
+            </div>
+          </div>
+            {/* <div class='w-1/6 bg-red-500'></div> */}
+          </div>
+          <div class='w-full flex flex justify-center pt-12 lg:pr-10 lg:pt-0 lg:pb-0'>
+            {/* <div class='w-1/6 bg-red-500'></div> */}
+            <div class='flex flex-col justify-center items-center w-full bg-blue-500 pt-8 pb-8 relative max-w-sm'>
+            <div class='absolute bottom-[-20px] right-[-20px] w-full h-full bg-yellow-500 z-[-1]'></div>
+            <div class='z-40'>
+              <div class='flex justify-center items-center'>
+                <h1 class='pb-4'>MENU WESELNE</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>I ZUPY</h1>
+                <h1 class='pb-4'>Rosół z makaronem / Strogonow</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>II DANIE GŁÓWNE</h1>
+                <h1>Schab pieczony w sosie kurkowym</h1>
+                <h1 class='pb-4'>(ziemniaki gotowane + mix sałat)</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>III DANIE GŁÓWNE</h1>
+                <h1>Karkówka po węgiersku</h1>
+                <h1>Zawijaniec drobiowy w jajku z pieczarkami</h1>
+                <h1 class='pb-4'>(kluski śląskie, warzywa na gorąco)</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>IV DANIE GŁÓWNE</h1>
+                <h1 class='pb-4'>Barszcz z pasztecikami</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>DZIECI</h1>
+                <h1>Nuggetsy z kurczaka / frytki / mix sałat</h1>
+              </div>
+            </div>
+          </div>
+            {/* <div class='w-1/6 bg-red-500'></div> */}
+          </div>
+          <div class='w-full flex flex justify-center pt-12 pb-12 lg:pt-0 lg:pb-0'>
+            {/* <div class='w-1/6 bg-red-500'></div> */}
+            <div class='flex flex-col justify-center items-center w-full bg-blue-500 pt-8 pb-8 relative max-w-sm'>
+            <div class='absolute bottom-[-20px] right-[-20px] w-full h-full bg-yellow-500 z-[-1]'></div>
+            <div class='z-40'>
+              <div class='flex justify-center items-center'>
+                <h1 class='pb-4'>MENU WESELNE</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>I ZUPY</h1>
+                <h1 class='pb-4'>Rosół z makaronem / Strogonow</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>II DANIE GŁÓWNE</h1>
+                <h1>Schab pieczony w sosie kurkowym</h1>
+                <h1 class='pb-4'>(ziemniaki gotowane + mix sałat)</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>III DANIE GŁÓWNE</h1>
+                <h1>Karkówka po węgiersku</h1>
+                <h1>Zawijaniec drobiowy w jajku z pieczarkami</h1>
+                <h1 class='pb-4'>(kluski śląskie, warzywa na gorąco)</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>IV DANIE GŁÓWNE</h1>
+                <h1 class='pb-4'>Barszcz z pasztecikami</h1>
+              </div>
+              <div class='flex flex-col justify-center items-center'>
+                <h1>DZIECI</h1>
+                <h1>Nuggetsy z kurczaka / frytki / mix sałat</h1>
+              </div>
+            </div>
+          </div>
+            {/* <div class='w-1/6 bg-red-500'></div> */}
+          </div>
+        </div>
+    </div>
+  )
+}
+
+export default Main

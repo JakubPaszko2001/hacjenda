@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    z-index: 2;
+    z-index: 51;
 }
 .menuOpen {
     width: 100vw;
@@ -21,7 +21,7 @@
     color: black;
     transform: translateY(-140%);
     transition: transform 1.2s ease-in-out;
-    z-index: 1;
+    z-index: 50;
 }
 
 .opened {
