@@ -1,5 +1,4 @@
 import React from 'react'
-import bgg from '../../public/images/background.jpg'
 const Shild = () => {
   return (
     <div>
