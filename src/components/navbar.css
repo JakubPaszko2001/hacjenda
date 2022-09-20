@@ -4,7 +4,7 @@
     width: 100vw;
     height: 7rem;
     background-color: transparent;
-    color: black;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,6 +44,7 @@
         transition: background-color 0.6s ease-in-out;
     }
     .background {
+        color: black;
         background-color: white;
         transition: background-color 0.6s ease-in-out;
     }

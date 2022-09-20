@@ -14,24 +14,24 @@ const Navbar = () => {
     nav.classList.toggle("background", window.scrollY > 0)
   })
   return (
-  <div class='relative'>
+  <div class='relative font-regular'>
     <div id='navbarContainer' className='navbarContainer'>
       <div class='hidden lg:w-1/3 lg:flex lg:justify-around lg:items-center text-xl'>
         <Link to="/">Strona główna</Link>
-        <Link to="/info">O nas</Link>
-        <Link to="/">Oferta</Link>
+        <Link to="/about">O nas</Link>
+        <Link to="/wedding">Wesela</Link>
         <Link to="/">Atrakcje</Link>
       </div>
       <div className='w-36 h-20 lg:flex lg:justify-center lg:items-center lg:w-1/3'>
         <div class='flex justify-center items-center w-full h-full object-cover lg:w-2/5'>
-          <img src={logo} alt='pgoto'/>
+          <Link to="/"><img src={logo} alt='pgoto'/></Link>
         </div>
       </div>
       <div class='hidden lg:flex lg:justify-around lg:items-center lg:w-1/3 text-xl'>
-        <h1>Noclegi</h1>
-        <h1>Menu</h1>
-        <h1>Galeria</h1>
-        <h1>Kontakt</h1>
+        <Link to="/">Noclegi</Link>
+        <Link to="/menu">Menu</Link>
+        <Link to="/galery">Galeria</Link>
+        <Link to="/contact">Kontakt</Link>
       </div>
       <div class='text-4xl lg:hidden'>
         <GiHamburgerMenu onClick={buttonHandle} />
