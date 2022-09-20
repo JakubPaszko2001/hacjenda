@@ -3,11 +3,13 @@
     top: 0;
     width: 100vw;
     height: 7rem;
-    background-color: white;
+    background-color: transparent;
+    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     z-index: 51;
+    transition: background-color 0.6s ease-in-out;
 }
 .menuOpen {
     width: 100vw;
@@ -23,7 +25,10 @@
     transition: transform 1.2s ease-in-out;
     z-index: 50;
 }
-
+.background {
+    background-color: white;
+    transition: background-color 0.6s ease-in-out;
+}
 .opened {
     transform: translateY(0%);
 }
@@ -36,5 +41,10 @@
     }
     .navbarContainer {
         background-color: transparent;
+        transition: background-color 0.6s ease-in-out;
+    }
+    .background {
+        background-color: white;
+        transition: background-color 0.6s ease-in-out;
     }
 }

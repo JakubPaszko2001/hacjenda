@@ -2,23 +2,30 @@ import React from 'react'
 import './navbar.css'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {Link} from 'react-router-dom'
+import logo from '../public/images/logo2.png'
 const Navbar = () => {
   const buttonHandle = () => {
     const element = document.getElementById('navbarMenu')
     element.classList.toggle("opened")
   }
 
+  window.addEventListener("scroll", function() {
+    var nav = document.getElementById('navbarContainer')
+    nav.classList.toggle("background", window.scrollY > 0)
+  })
   return (
   <div class='relative'>
-    <div className='navbarContainer lg:m-auto'>
+    <div id='navbarContainer' className='navbarContainer'>
       <div class='hidden lg:w-1/3 lg:flex lg:justify-around lg:items-center text-xl'>
         <Link to="/">Strona główna</Link>
         <Link to="/info">O nas</Link>
         <Link to="/">Oferta</Link>
         <Link to="/">Atrakcje</Link>
       </div>
-      <div className='lg:flex lg:justify-center lg:items-center lg:w-1/3'>
-        <h1 className='h1'>HACJENDA</h1>
+      <div className='w-36 h-20 lg:flex lg:justify-center lg:items-center lg:w-1/3'>
+        <div class='flex justify-center items-center w-full h-full object-cover lg:w-2/5'>
+          <img src={logo} alt='pgoto'/>
+        </div>
       </div>
       <div class='hidden lg:flex lg:justify-around lg:items-center lg:w-1/3 text-xl'>
         <h1>Noclegi</h1>
