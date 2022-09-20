@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.638c2893.css",
-    "main.js": "/static/js/main.5271d4d8.js",
-    "static/media/szampan.jpg": "/static/media/szampan.e8fa2dce69c0190ba686.jpg",
-    "static/media/wesele.jpg": "/static/media/wesele.52fb49ead724d66d1eba.jpg",
-    "static/media/background.jpg": "/static/media/background.c4cabdfcf38fc77d4bf8.jpg",
-    "static/media/FourSignature.ttf": "/static/media/FourSignature.1e6b20ae9b16f40ed466.ttf",
-    "static/media/ciasto.jpg": "/static/media/ciasto.6ab375a086dbda77001d.jpg",
-    "static/media/MyriadProRegular.ttf": "/static/media/MyriadProRegular.c59859cec849233be7f8.ttf",
-    "static/media/logo2.png": "/static/media/logo2.1cb2fdd5bd0ddffb5e5a.png",
-    "static/media/tradycja.jpg": "/static/media/tradycja.d41ca59540cdacbb512a.jpg",
-    "static/media/smak.jpg": "/static/media/smak.f8431705f340bbade6c3.jpg",
-    "static/media/lowisko.jpg": "/static/media/lowisko.58b1b930c1ab1c23193b.jpg",
-    "static/media/patern2.png": "/static/media/patern2.8048324c008d19a59145.png",
-    "index.html": "/index.html",
-    "main.638c2893.css.map": "/static/css/main.638c2893.css.map",
-    "main.5271d4d8.js.map": "/static/js/main.5271d4d8.js.map"
+    "main.css": "/hacjenda/static/css/main.c2b4a99a.css",
+    "main.js": "/hacjenda/static/js/main.792af922.js",
+    "static/media/szampan.jpg": "/hacjenda/static/media/szampan.e8fa2dce69c0190ba686.jpg",
+    "static/media/wesele.jpg": "/hacjenda/static/media/wesele.52fb49ead724d66d1eba.jpg",
+    "static/media/background.jpg": "/hacjenda/static/media/background.c4cabdfcf38fc77d4bf8.jpg",
+    "static/media/FourSignature.ttf": "/hacjenda/static/media/FourSignature.1e6b20ae9b16f40ed466.ttf",
+    "static/media/ciasto.jpg": "/hacjenda/static/media/ciasto.6ab375a086dbda77001d.jpg",
+    "static/media/MyriadProRegular.ttf": "/hacjenda/static/media/MyriadProRegular.c59859cec849233be7f8.ttf",
+    "static/media/logo2.png": "/hacjenda/static/media/logo2.1cb2fdd5bd0ddffb5e5a.png",
+    "static/media/tradycja.jpg": "/hacjenda/static/media/tradycja.d41ca59540cdacbb512a.jpg",
+    "static/media/smak.jpg": "/hacjenda/static/media/smak.f8431705f340bbade6c3.jpg",
+    "static/media/lowisko.jpg": "/hacjenda/static/media/lowisko.58b1b930c1ab1c23193b.jpg",
+    "static/media/patern2.png": "/hacjenda/static/media/patern2.8048324c008d19a59145.png",
+    "index.html": "/hacjenda/index.html",
+    "main.c2b4a99a.css.map": "/hacjenda/static/css/main.c2b4a99a.css.map",
+    "main.792af922.js.map": "/hacjenda/static/js/main.792af922.js.map"
   },
   "entrypoints": [
-    "static/css/main.638c2893.css",
-    "static/js/main.5271d4d8.js"
+    "static/css/main.c2b4a99a.css",
+    "static/js/main.792af922.js"
   ]
 }
