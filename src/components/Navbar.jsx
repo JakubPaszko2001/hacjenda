@@ -17,21 +17,21 @@ const Navbar = () => {
   <div class='relative font-regular'>
     <div id='navbarContainer' className='navbarContainer'>
       <div class='hidden lg:w-1/3 lg:flex lg:justify-around lg:items-center text-xl'>
-        <Link to="/">Strona główna</Link>
-        <Link to="/about">O nas</Link>
-        <Link to="/wedding">Wesela</Link>
-        <Link to="/">Atrakcje</Link>
+        <Link class='cursor-pointer' to="/">Strona główna</Link>
+        <Link class='cursor-pointer' to="/about">O nas</Link>
+        <Link class='cursor-pointer' to="/wedding">Wesela</Link>
+        <Link class='cursor-pointer' to="/">Atrakcje</Link>
       </div>
       <div className='w-36 h-20 lg:flex lg:justify-center lg:items-center lg:w-1/3'>
         <div class='flex justify-center items-center w-full h-full object-cover lg:w-2/5'>
-          <Link to="/"><img src={logo} alt='pgoto'/></Link>
+          <Link class='cursor-pointer' to="/"><img src={logo} alt='pgoto'/></Link>
         </div>
       </div>
       <div class='hidden lg:flex lg:justify-around lg:items-center lg:w-1/3 text-xl'>
-        <Link to="/">Noclegi</Link>
-        <Link to="/menu">Menu</Link>
-        <Link to="/galery">Galeria</Link>
-        <Link to="/contact">Kontakt</Link>
+        <Link class='cursor-pointer' to="/">Noclegi</Link>
+        <Link class='cursor-pointer' to="/menu">Menu</Link>
+        <Link class='cursor-pointer' to="/galery">Galeria</Link>
+        <Link class='cursor-pointer' to="/contact">Kontakt</Link>
       </div>
       <div class='text-4xl lg:hidden'>
         <GiHamburgerMenu onClick={buttonHandle} />
