@@ -5,6 +5,8 @@ import Galery from './components/Galery/Galery'
 import Wedding from './components/Wedding/Wedding'
 import Contact from './components/Contact/Contact'
 import Menu from './components/Menu/Menu'
+import Accommodation from './components/Accommodation/Accommodation'
+import Party from './components/Party/Party'
 import { Route, Switch } from "react-router-dom";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route exact path="/wedding" component={Wedding} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/menu" component={Menu} />
+        <Route exact path="/accommodation" component={Accommodation} />
+        <Route exact path="/party" component={Party} />
       </Switch>
     </div>
   );

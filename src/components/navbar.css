@@ -10,6 +10,7 @@
     align-items: center;
     z-index: 51;
     transition: background-color 0.6s ease-in-out;
+    transition-delay: 0.3s;
 }
 .menuOpen {
     width: 100vw;
@@ -28,6 +29,9 @@
 .background {
     background-color: white;
     transition: background-color 0.6s ease-in-out;
+}
+.bg {
+    background-color: white;
 }
 .opened {
     transform: translateY(0%);
