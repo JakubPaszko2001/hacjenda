@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hacjenda/static/css/main.0476c584.css",
-    "main.js": "/hacjenda/static/js/main.d61d40d4.js",
+    "main.css": "/hacjenda/static/css/main.f1cd8ea0.css",
+    "main.js": "/hacjenda/static/js/main.784260ba.js",
     "static/media/szampan.jpg": "/hacjenda/static/media/szampan.e8fa2dce69c0190ba686.jpg",
     "static/media/wesele.jpg": "/hacjenda/static/media/wesele.52fb49ead724d66d1eba.jpg",
     "static/media/48.jpg": "/hacjenda/static/media/48.551b1f6ca083116d2e21.jpg",
@@ -74,11 +74,11 @@
     "static/media/26.jpg": "/hacjenda/static/media/26.d91b4656859f18ce71b7.jpg",
     "static/media/patern2.png": "/hacjenda/static/media/patern2.8048324c008d19a59145.png",
     "index.html": "/hacjenda/index.html",
-    "main.0476c584.css.map": "/hacjenda/static/css/main.0476c584.css.map",
-    "main.d61d40d4.js.map": "/hacjenda/static/js/main.d61d40d4.js.map"
+    "main.f1cd8ea0.css.map": "/hacjenda/static/css/main.f1cd8ea0.css.map",
+    "main.784260ba.js.map": "/hacjenda/static/js/main.784260ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.0476c584.css",
-    "static/js/main.d61d40d4.js"
+    "static/css/main.f1cd8ea0.css",
+    "static/js/main.784260ba.js"
   ]
 }
