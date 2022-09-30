@@ -1,5 +1,5 @@
 import React from 'react'
-import szampan from '../../public/images/szampan.jpg'
+import szampan from '../../public/images/szampan.webp'
 const Invite = () => {
   return (
     <div>

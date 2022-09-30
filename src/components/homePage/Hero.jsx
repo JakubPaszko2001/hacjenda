@@ -1,6 +1,6 @@
 import React from 'react'
 import patern from '../../public/images/patern2.png'
-import wesele from '../../public/images/wesele.jpg'
+import wesele from '../../public/images/wesele.webp'
 const Hero = () => {
   return (
     <div class='h-96 w-screen bg-white lg:h-[40rem]'>

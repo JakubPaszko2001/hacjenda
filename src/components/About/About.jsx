@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const About = () => {
   AOS.init();
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, -10);
   },[])
   return (
     <div class='overflow-hidden'>

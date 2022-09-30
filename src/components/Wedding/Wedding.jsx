@@ -7,7 +7,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Wedding = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, -10);
   },[])
   AOS.init();
   return (

@@ -1,7 +1,8 @@
 import React from 'react'
-import smak from '../../public/images/smak.jpg'
-import tradycja from '../../public/images/tradycja.jpg'
-import lowisko from '../../public/images/lowisko.jpg'
+import smak from '../../public/images/smak.webp'
+import tradycja from '../../public/images/tradycja.webp'
+import lowisko from '../../public/images/lowisko.webp'
+import ogrod from '../Galery/Photos/43.webp'
 const Main = () => {
   return (
     <div class='w-screen lg:mt-20'>
@@ -26,8 +27,8 @@ const Main = () => {
             </div>
             <div class='w-screen flex items-center justify-center lg:flex-col lg:w-1/2 p-10'>
                 <div class='flex flex-col justify-center w-full h-full max-w-[40rem]'>
-                    <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Urzadzamy przyjecia ze smakiem</h1>
-                    <h1 class='font-regular'>Pośród otaczającej nas zwykłej codzienności szukamy chwil, które są  niezwykłe. Kiedy czas się zatrzymuje i nie płynie zwyczajnie. To chwile pełne podekscytowaniam oczekiwania, kiedy wszystko może się wydarzyć... My, Polacy uwielbiamy świętować. Spotykać się przy zastawionym stole, kiedy stoły uginają się od pysznych potraw. To nasza tradycja - pełne ciepła i życzliwości spotkania.</h1>
+                    <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Kuchania tradycyjna</h1>
+                    <h1 class='font-regular'>Kuchnia jak i region są niepowtarzalne i to nie tylko z uwagi na walory przyrodnicze i historyczne, ale również głęboko zakorzenionej gościnności, którą najlepiej  realizuje się przy stole. Kuchnia Podlasia łączy w sobie kuchnie ukraińską, białoruską, ruską, żydowską, tatarską, polską i litewską </h1>
                 </div>
             </div>
         </div>
@@ -39,21 +40,21 @@ const Main = () => {
             </div>
             <div class='w-screen flex items-center justify-center lg:flex-col lg:w-1/2 p-10'>
                 <div class='flex flex-col justify-center w-full h-full max-w-[40rem]'>
-                    <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Urządzamy przyjęcia ze smakiem</h1>
-                    <h1 class='font-regular'>Pośród otaczającej nas zwykłej codzienności szukamy chwil, które są  niezwykłe. Kiedy czas się zatrzymuje i nie płynie zwyczajnie. To chwile pełne podekscytowaniam oczekiwania, kiedy wszystko może się wydarzyć... My, Polacy uwielbiamy świętować. Spotykać się przy zastawionym stole, kiedy stoły uginają się od pysznych potraw. To nasza tradycja - pełne ciepła i życzliwości spotkania.</h1>
+                    <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Lowisko</h1>
+                    <h1 class='font-regular'>Łowisko Hacjendy jest idealnym miejscem do spędzenia czasu z rodziną lub znajomymi. Chwilowo możecie się zrelaksować i poczuć się jak na wakacjach.Pływają u nas takie ryby jak karp, amur, szczupak, lin, sum, sandacz, karaś, płotka i tym podobne ryby słodkowodne. </h1>
                 </div>
             </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" class='w-screen flex flex-col-reverse lg:flex-row-reverse'>
             <div class='flex justify-center items-center w-screen h-96 lg:w-1/2'>
                 <div class='w-full h-full max-w-[40rem]'>
-                    <img src={smak} alt='smak' class='object-cover h-full w-full'/>
+                    <img src={ogrod} alt='smak' class='object-cover h-full w-full'/>
                 </div>
             </div>
             <div class='w-screen flex items-center justify-center lg:flex-col lg:w-1/2 p-10'>
                 <div class='flex flex-col justify-center w-full h-full max-w-[40rem]'>
-                    <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Urządzamy przyjęcia ze smakiem</h1>
-                    <h1 class='font-regular'>Pośród otaczającej nas zwykłej codzienności szukamy chwil, które są  niezwykłe. Kiedy czas się zatrzymuje i nie płynie zwyczajnie. To chwile pełne podekscytowaniam oczekiwania, kiedy wszystko może się wydarzyć... My, Polacy uwielbiamy świętować. Spotykać się przy zastawionym stole, kiedy stoły uginają się od pysznych potraw. To nasza tradycja - pełne ciepła i życzliwości spotkania.</h1>
+                    <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Ogród</h1>
+                    <h1 class='font-regular'>Dodatkową atrakcją jest piękny,klimatyczny dostępny cały sezon. Każde przyjęcie okolicznościowe musi mieć taką przestrzeń. Świetne miejsce na złapanieoddechu podczas zabawy. Nie ma to jak Bankiety w Hacjendzie.</h1>
                 </div>
             </div>
         </div>

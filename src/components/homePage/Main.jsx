@@ -4,12 +4,12 @@ import Hero from './Hero'
 import Rent from './Rent'
 import Invite from './Invite'
 import Shild from './Shild'
-import bgg from '../../public/images/background.jpg'
+import bgg from '../../public/images/background2.webp'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Main = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, -10);
   },[])
   AOS.init();
   return (

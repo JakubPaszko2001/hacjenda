@@ -1,6 +1,5 @@
 import React from 'react'
 import './navbar.css'
-import {GiHamburgerMenu} from 'react-icons/gi'
 import {Link} from 'react-router-dom'
 import logo from '../public/images/logo2.png'
 const Navbar = () => {
@@ -35,8 +34,12 @@ const Navbar = () => {
         <Link class='cursor-pointer' to="/galery">Galeria</Link>
         <Link class='cursor-pointer' to="/contact">Kontakt</Link>
       </div>
-      <div class='text-4xl text-black lg:hidden'>
-        <GiHamburgerMenu onClick={buttonHandle} />
+      <div class='flex-col text-4xl text-black lg:hidden'>
+        <div class='flex flex-col items-center justify-around w-[35px] h-[30px] cursor-pointer' onClick={buttonHandle}>
+          <span class='w-full h-[5px] bg-gold'></span>
+          <span class='w-full h-[5px] bg-gold'></span>
+          <span class='w-full h-[5px] bg-gold'></span>
+        </div>
       </div>
     </div>
     <div className='menuOpen' id='navbarMenu'>
