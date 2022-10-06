@@ -15,7 +15,7 @@ const Main = () => {
             <div class='w-screen flex items-center justify-center lg:flex-col lg:w-1/2 p-10'>
                 <div class='flex flex-col justify-center w-full h-full max-w-[40rem]'>
                     <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Urzadzamy przyjecia ze smakiem</h1>
-                    <h1 class='font-regular'>Pośród otaczającej nas zwykłej codzienności szukamy chwil, które są  niezwykłe. Kiedy czas się zatrzymuje i nie płynie zwyczajnie. To chwile pełne podekscytowaniam oczekiwania, kiedy wszystko może się wydarzyć... My, Polacy uwielbiamy świętować. Spotykać się przy zastawionym stole, kiedy stoły uginają się od pysznych potraw. To nasza tradycja - pełne ciepła i życzliwości spotkania.</h1>
+                    <h1 class='font-regular'>Pośród otaczającej nas zwykłej codzienności szukamy chwil, które są niezwykłe. Kiedy czas się zatrzymuje i nie płynie zwyczajnie. To chwile pełne podekscytowania oczekiwania, kiedy wszystko może się wydarzyć... My, Polacy uwielbiamy świętować. Spotykać się przy zastawionym stole, kiedy stoły uginają się od pysznych potraw. To nasza tradycja - pełne ciepła i życzliwości spotkania.</h1>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@ const Main = () => {
             <div class='w-screen flex items-center justify-center lg:flex-col lg:w-1/2 p-10'>
                 <div class='flex flex-col justify-center w-full h-full max-w-[40rem]'>
                     <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Kuchania tradycyjna</h1>
-                    <h1 class='font-regular'>Kuchnia jak i region są niepowtarzalne i to nie tylko z uwagi na walory przyrodnicze i historyczne, ale również głęboko zakorzenionej gościnności, którą najlepiej  realizuje się przy stole. Kuchnia Podlasia łączy w sobie kuchnie ukraińską, białoruską, ruską, żydowską, tatarską, polską i litewską </h1>
+                    <h1 class='font-regular'>Kuchnia, jak i region są niepowtarzalne i to nie tylko z uwagi na walory przyrodnicze i historyczne, ale również głęboko zakorzenionej gościnności, którą najlepiej realizuje się przy stole. Kuchnia Podlasia łączy w sobie kuchnię ukraińską, białoruską, ruską, żydowską, tatarską, polską i litewską.</h1>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@ const Main = () => {
             <div class='w-screen flex items-center justify-center lg:flex-col lg:w-1/2 p-10'>
                 <div class='flex flex-col justify-center w-full h-full max-w-[40rem]'>
                     <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Lowisko</h1>
-                    <h1 class='font-regular'>Łowisko Hacjendy jest idealnym miejscem do spędzenia czasu z rodziną lub znajomymi. Chwilowo możecie się zrelaksować i poczuć się jak na wakacjach.Pływają u nas takie ryby jak karp, amur, szczupak, lin, sum, sandacz, karaś, płotka i tym podobne ryby słodkowodne. </h1>
+                    <h1 class='font-regular'>Łowisko Hacjendy jest idealnym miejscem do spędzenia czasu z rodziną lub znajomymi. Chwilowo możecie się zrelaksować i poczuć się jak na wakacjach. Pływają u nas takie ryby jak karp, amur, szczupak, lin, sum, sandacz, karaś, płotka i tym podobne ryby słodkowodne.</h1>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ const Main = () => {
             <div class='w-screen flex items-center justify-center lg:flex-col lg:w-1/2 p-10'>
                 <div class='flex flex-col justify-center w-full h-full max-w-[40rem]'>
                     <h1 class='pb-10 text-3xl lg:text-5xl font-title'>Ogród</h1>
-                    <h1 class='font-regular'>Dodatkową atrakcją jest piękny,klimatyczny dostępny cały sezon. Każde przyjęcie okolicznościowe musi mieć taką przestrzeń. Świetne miejsce na złapanieoddechu podczas zabawy. Nie ma to jak Bankiety w Hacjendzie.</h1>
+                    <h1 class='font-regular'>Dodatkową atrakcją jest piękny, klimatyczny dostępny cały sezon. Każde przyjęcie okolicznościowe musi mieć taką przestrzeń. Świetne miejsce na złapanie oddechu podczas zabawy. Nie ma to, jak Bankiety w Hacjendzie.</h1>
                 </div>
             </div>
         </div>
