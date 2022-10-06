@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import Navbar from '../Navbar'
 import Hero from './Hero'
 import Main from './Main'
+import Footer from './Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const About = () => {
@@ -14,6 +15,7 @@ const About = () => {
         <Navbar/>
         <Hero/>
         <Main/>
+        <Footer/>
     </div>
   )
 }

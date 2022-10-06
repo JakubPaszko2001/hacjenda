@@ -7,6 +7,7 @@ import Shild from './Shild'
 import bgg from '../../public/images/background2.webp'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from './Footer'
 const Main = () => {
   useEffect(() => {
     window.scrollTo(0, -10);
@@ -23,6 +24,7 @@ const Main = () => {
         <Rent />
         <Invite />
         <Shild />
+        <Footer/>
     </div>
   )
 }

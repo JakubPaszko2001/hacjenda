@@ -3,7 +3,7 @@ import patern from '../../public/images/patern2.png'
 import wesele from '../../public/images/wesele.webp'
 const Hero = () => {
   return (
-    <div class='h-96 w-screen bg-white lg:h-[40rem]'>
+    <div class='h-96 w-screen bg-white lg:h-[40rem] relative z-[1]'>
         <div class='flex w-10/12 h-[40rem] bg-white z-20 translate-y-[-50%]'>
           <div class='w-1/6 bg-darkgreen bg-contain' style={{backgroundImage: `url(${patern})`}}>
 
@@ -13,7 +13,7 @@ const Hero = () => {
               <h1 class='break-words'>Sala bankietowa Hacjenda znajduje się w miejscowości Jasionówka  zaledwie 30 km od Białegostoku. Zajmujemy się organizacją wesel, komunii i innych przyjęć okolicznościowych. Sala znajduje się na uboczu otoczona przepięknym ogrode. Podmiejski charakter okolicy oraz przyjazdna atmosfera stwarzają świetne miejsce wypoczynku. Sala jest klimatyzowana. Obiekt pomieści nawet 250 osób.</h1>
             </div>
             <div class='h-1/2 w-[83.4%] lg:w-3/4 right-0 absolute lg:h-4/5'>
-              <div class='h-[100%] lg:h-[110%] bg-cover bg-center pl-2 lg:w' style={{backgroundImage: `url(${wesele})`}}></div>
+              <div class='h-[100%] lg:h-[110%] bg-cover bg-center pl-2 lg:w z-[40]' style={{backgroundImage: `url(${wesele})`}}></div>
             </div>
           </div>
         </div>

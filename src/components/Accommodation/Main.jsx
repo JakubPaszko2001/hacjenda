@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import pokoj from '../Galery/Photos/22.webp'
-import pokoj1 from '../Galery/Photos/24.webp'
+import pokoj from '../Galery/Photos/h1.webp'
+import pokoj1 from '../Galery/Photos/h2.webp'
 const Main = () => {
   const [room,setRoom] = useState(pokoj)
   function changeColor() {
