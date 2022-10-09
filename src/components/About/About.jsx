@@ -5,7 +5,7 @@ import Main from './Main'
 import Footer from './Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-const About = () => {
+const Party = () => {
   AOS.init();
   useEffect(() => {
     window.scrollTo(0, -10);
@@ -20,4 +20,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Party

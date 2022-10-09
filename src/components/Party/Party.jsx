@@ -5,7 +5,7 @@ import Main from './Main'
 import Footer from './Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-const Contact = () => {
+const About = () => {
   AOS.init();
   useEffect(() => {
     window.scrollTo(0, -10);
@@ -20,4 +20,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default About
