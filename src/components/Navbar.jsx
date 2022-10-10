@@ -18,10 +18,16 @@ const Navbar = () => {
   <div class='relative font-regular'>
     <div id='navbarContainer' className='navbarContainer'>
       <div class='hidden lg:w-1/3 lg:flex lg:justify-around lg:items-center text-xl'>
-        <Link class='cursor-pointer' to="/">Strona główna</Link>
         <Link class='cursor-pointer' to="/about">O nas</Link>
-        <Link class='cursor-pointer' to="/wedding">Wesela</Link>
-        <Link class='cursor-pointer' to="/party">Imprezy</Link>
+        <div class='drop-menu'>
+          <h1 class='w-full h-full'>Oferta ▼</h1>
+          <div class='dropped-menu'>
+            <Link to="/wedding" class='p-4'>Wesela</Link>
+            <Link to="/party" class='p-4 pt-2'>Imprezy</Link>
+            <Link to="/catering" class='p-4 pt-2'>Catering</Link>
+          </div>
+        </div>
+        <Link class='cursor-pointer' to="/accommodation">Noclegi</Link>
       </div>
       <div className='w-36 h-20 lg:flex lg:justify-center lg:items-center lg:w-1/3'>
         <div class='flex justify-center items-center w-full h-full object-cover lg:w-2/5'>
@@ -29,7 +35,6 @@ const Navbar = () => {
         </div>
       </div>
       <div class='hidden lg:flex lg:justify-around lg:items-center lg:w-1/3 text-xl'>
-        <Link class='cursor-pointer' to="/accommodation">Noclegi</Link>
         <Link class='cursor-pointer' to="/menu">Menu</Link>
         <Link class='cursor-pointer' to="/galery">Galeria</Link>
         <Link class='cursor-pointer' to="/contact">Kontakt</Link>

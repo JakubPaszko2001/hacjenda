@@ -39,6 +39,25 @@
 .first, .second {
     display: none;
 }
+.drop-menu {
+    position: relative;
+    cursor: pointer;
+}
+.dropped-menu {
+    position: absolute;
+    top: 28px;
+    left: -16px;
+    width: 150px;
+    background-color: #122222;
+    color: #a89d7a;
+    display: none;
+}
+.drop-menu h1:focus + .dropped-menu,
+.drop-menu h1:hover + .dropped-menu,
+.drop-menu .dropped-menu:hover {
+    display: flex;
+    flex-direction: column;
+}
 @media only screen and (min-width: 1024px) {
     .first, .second {
         display: block;
