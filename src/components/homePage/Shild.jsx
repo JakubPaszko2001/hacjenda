@@ -3,8 +3,8 @@ import shild from '../../public/images/tarcza.webp'
 const Shild = () => {
   return (
     <div>
-        <div class='w-screen h-14 bg-darkgreen lg:h-24'></div>
-        <div class='flex flex-col items-center justify-between w-screen h-[15rem] sm:flex-row p-2'>
+        <div data-aos="fade-up" data-aos-duration="2000" class='w-screen h-14 bg-darkgreen lg:h-24'></div>
+        <div data-aos="fade-up" data-aos-duration="2000" class='flex flex-col items-center justify-between w-screen h-[15rem] sm:flex-row p-2'>
           <div class='flex justify-center w-full h-1/2 lg:h-full pr-2'>
             <img class='object-cover h-full w-full max-w-[26rem]' src={shild} alt="tarcza photo"/>
           </div>

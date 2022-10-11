@@ -13,7 +13,7 @@ const Rent = () => {
                 <h1 data-aos="fade-up" data-aos-duration="2000">Przeżyjmy ten dzień wspólnie w Hacjendzie.</h1>
             </div>
             <div class='w-4/5 m-auto pt-8 pb-8 pl-4 pr-2 text-2xl bg-lightgreen text-gold  lg:h-[34rem] lg:max-w-[28rem] '>
-                <div class='flex w-full lg:justify-center'><h1 data-aos="fade-up" data-aos-duration="2000" class='pb-8 font-title text-5xl'>Imprezy okolicznościowe</h1></div>
+                <div class='flex w-full lg:justify-center'><h1 data-aos="fade-up" data-aos-duration="2000" class='pb-8 font-title text-5xl'>Imprezy okolicznosciowe</h1></div>
                 <h1 data-aos="fade-up" data-aos-duration="2000" class='pb-4 font-regular'>Wszelkie imprezy okolicznościowe będą przeżyciem niezapomnianym takie jak komunie lub chrzest</h1>
             </div>
             <div class='w-4/5 m-auto pt-8 pb-8 pl-4 pr-2 text-2xl bg-lightblue text-gold  lg:h-[34rem] lg:max-w-[28rem] lg:translate-y-[10%]'>
