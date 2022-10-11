@@ -52,6 +52,7 @@ const Navbar = () => {
         <Link to="/about" class='p-4'>O nas</Link>
         <Link to="/wedding" class='p-4'>Wesela</Link>
         <Link to="/party" class='p-4'>Imprezy</Link>
+        <Link to="/catering" class='p-4'>Catering</Link>
         <Link to="/accommodation" class='p-4'>Noclegi</Link>
         <Link to="/menu" class='p-4'>Menu</Link>
         <Link to="/galery" class='p-4'>Galeria</Link>
