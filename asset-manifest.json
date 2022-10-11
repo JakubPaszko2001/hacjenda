@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hacjenda/static/css/main.5c091906.css",
-    "main.js": "/hacjenda/static/js/main.84291126.js",
+    "main.css": "/hacjenda/static/css/main.f52a5571.css",
+    "main.js": "/hacjenda/static/js/main.edc8f930.js",
     "static/media/89.webp": "/hacjenda/static/media/89.0036f0ba7092ea720d06.webp",
     "static/media/90.webp": "/hacjenda/static/media/90.873cbbd4145bb15f2edb.webp",
     "static/media/101.webp": "/hacjenda/static/media/101.0a7c2699e34d2ee3b40f.webp",
@@ -17,6 +17,7 @@
     "static/media/39.webp": "/hacjenda/static/media/39.da0bf2e14809360e3998.webp",
     "static/media/44.webp": "/hacjenda/static/media/44.532b012df145062a52ff.webp",
     "static/media/52.webp": "/hacjenda/static/media/52.95ce3b66b2e9671db44e.webp",
+    "static/media/background3.webp": "/hacjenda/static/media/background3.1c355ff0d76e4c13ea25.webp",
     "static/media/49.webp": "/hacjenda/static/media/49.08c9fe9c6e7502775791.webp",
     "static/media/51.webp": "/hacjenda/static/media/51.4ab29897ad5d6b8b75d4.webp",
     "static/media/35.webp": "/hacjenda/static/media/35.c8c84f6ec5c53ef9a99a.webp",
@@ -33,7 +34,6 @@
     "static/media/92.webp": "/hacjenda/static/media/92.b9ddbbd1027401eea12f.webp",
     "static/media/43.webp": "/hacjenda/static/media/43.aee75a498d1b69beb0ce.webp",
     "static/media/w3.webp": "/hacjenda/static/media/w3.58ac30b4963ff0144139.webp",
-    "static/media/background.webp": "/hacjenda/static/media/background.11c191e249df150d32be.webp",
     "static/media/15.webp": "/hacjenda/static/media/15.7ba90463dfa0382c52ab.webp",
     "static/media/79.webp": "/hacjenda/static/media/79.c781130e2e2c63653dd3.webp",
     "static/media/95.webp": "/hacjenda/static/media/95.7b96efdfdeb949bae655.webp",
@@ -51,9 +51,7 @@
     "static/media/chrzest.webp": "/hacjenda/static/media/chrzest.43be6067057bc0339ea0.webp",
     "static/media/w10.webp": "/hacjenda/static/media/w10.7ae15f91e69be04048e3.webp",
     "static/media/w23.webp": "/hacjenda/static/media/w23.02a4d83b59defcd240a4.webp",
-    "static/media/background2.webp": "/hacjenda/static/media/background2.6f037dead769d3e14018.webp",
     "static/media/w30.webp": "/hacjenda/static/media/w30.7c9bdba16a5b6577bb89.webp",
-    "static/media/wesele.webp": "/hacjenda/static/media/wesele.dfeb1e980e73835b7e44.webp",
     "static/media/20.webp": "/hacjenda/static/media/20.08495b060ce1d7efd6c8.webp",
     "static/media/FourSignature.ttf": "/hacjenda/static/media/FourSignature.1e6b20ae9b16f40ed466.ttf",
     "static/media/w27.webp": "/hacjenda/static/media/w27.bbdb1f61ff7907f1af86.webp",
@@ -117,11 +115,11 @@
     "static/media/tarcza.webp": "/hacjenda/static/media/tarcza.1ac82af4aaaffa664691.webp",
     "static/media/patern2.png": "/hacjenda/static/media/patern2.8048324c008d19a59145.png",
     "index.html": "/hacjenda/index.html",
-    "main.5c091906.css.map": "/hacjenda/static/css/main.5c091906.css.map",
-    "main.84291126.js.map": "/hacjenda/static/js/main.84291126.js.map"
+    "main.f52a5571.css.map": "/hacjenda/static/css/main.f52a5571.css.map",
+    "main.edc8f930.js.map": "/hacjenda/static/js/main.edc8f930.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c091906.css",
-    "static/js/main.84291126.js"
+    "static/css/main.f52a5571.css",
+    "static/js/main.edc8f930.js"
   ]
 }
