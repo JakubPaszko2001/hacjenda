@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hacjenda/static/css/main.f52a5571.css",
-    "main.js": "/hacjenda/static/js/main.edc8f930.js",
+    "main.js": "/hacjenda/static/js/main.0d8f442e.js",
     "static/media/89.webp": "/hacjenda/static/media/89.0036f0ba7092ea720d06.webp",
     "static/media/90.webp": "/hacjenda/static/media/90.873cbbd4145bb15f2edb.webp",
     "static/media/101.webp": "/hacjenda/static/media/101.0a7c2699e34d2ee3b40f.webp",
@@ -116,10 +116,10 @@
     "static/media/patern2.png": "/hacjenda/static/media/patern2.8048324c008d19a59145.png",
     "index.html": "/hacjenda/index.html",
     "main.f52a5571.css.map": "/hacjenda/static/css/main.f52a5571.css.map",
-    "main.edc8f930.js.map": "/hacjenda/static/js/main.edc8f930.js.map"
+    "main.0d8f442e.js.map": "/hacjenda/static/js/main.0d8f442e.js.map"
   },
   "entrypoints": [
     "static/css/main.f52a5571.css",
-    "static/js/main.edc8f930.js"
+    "static/js/main.0d8f442e.js"
   ]
 }
