@@ -2,12 +2,9 @@ import React from 'react'
 const Main = () => {
   return (
     <div className='w-screen bg-darkgreen'>
-      <div class='lg:w-1/2 m-auto'>
-        <h1 class='text-gold font-regular p-4 lg:text-xl lg:p-8'>Organizacja imprezy to nie twoja mocna strona? <br/> Nic się nie stało. Catering Hacjendy przybywa z pomocą. Regionalne dania to nasza specjalność i jesteśmy pewni, że sprostają waszym oczekiwaniom. Martwi was dowóz? Proszę się nie martwić, dowieziemy dla państwa wszystkie wasze przepyszne potrawy. Zapraszamy do zapoznania się z naszą ofertą.</h1>
-      </div>
-      <div class='w-screen flex justify-center items-center text-gold font-title text-6xl lg:pb-2 lg:text-8xl'>Cennik</div>
+      <div data-aos="fade-up" data-aos-duration="2000" class='w-screen flex justify-center items-center text-gold font-title text-6xl lg:pb-2 lg:text-8xl'>Cennik</div>
       <div class='flex flex-col lg:flex-row lg:items-start m-auto'>
-        <div class='flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-xl'>
+        <div data-aos="fade-up" data-aos-duration="2000" class='flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-sm xl:text-base 2xl:text-xl'>
           <h1 class='w-full flex justify-center items-center mb-2 mt-2 text-2xl font-regular border-t-2 border-b-2 border-gold  lg:mb-6 lg:mt-6 lg:border-none lg:underline'>ZUPY</h1>
           <h1>Rosół z makaronem	12zł/220g</h1>
           <h1>Serowa z pulpecikami	12zł/220g</h1>
@@ -30,7 +27,7 @@ const Main = () => {
           <h1>Tymbaliki drobiowe	28zł/200g</h1>
           <h1>Jajka faszerowane	38zł/300g</h1>
         </div>
-        <div class='flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-xl'>
+        <div data-aos="fade-up" data-aos-duration="2000" class='flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-sm xl:text-base 2xl:text-xl'>
         <h1 class='w-full flex justify-center items-center mb-2 mt-2 text-2xl font-regular border-t-2 border-b-2 border-gold  lg:mb-6 lg:mt-6 lg:border-none lg:underline'>DANIA GŁÓWNE</h1>
           <h1>Devolay	15zł/150g</h1>
           <h1>Schab pieczony w sosie kurkowym	15zł/150g</h1>
@@ -49,7 +46,7 @@ const Main = () => {
           <h1>Ryż	5zł/150g</h1>
           <h1>Kopytka	5zł/150g</h1>
         </div>
-        <div class='flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-xl'>
+        <div data-aos="fade-up" data-aos-duration="2000" class='flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-sm xl:text-base 2xl:text-xl'>
           <h1 class='w-full flex justify-center items-center mb-2 mt-2 text-2xl font-regular border-t-2 border-b-2 border-gold  lg:mb-6 lg:mt-6 lg:border-none lg:underline'>SURÓWKI</h1>
           <h1>Czerwona kapusta	8zł/200g</h1>
           <h1>Marchew	8zł/200g</h1>

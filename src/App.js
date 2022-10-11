@@ -9,10 +9,12 @@ import Accommodation from './components/Accommodation/Accommodation'
 import Party from './components/Party/Party'
 import Catering from './components/Catering/Catering'
 import { Route, Switch } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/about" component={About} />
@@ -24,7 +26,7 @@ function App() {
         <Route exact path="/party" component={Party} />
         <Route exact path="/catering" component={Catering} />
       </Switch>
-    </div>
+    </BrowserRouter>
   );
 }
 
