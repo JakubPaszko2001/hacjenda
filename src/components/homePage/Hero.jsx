@@ -1,6 +1,7 @@
 import React from "react";
 import bgg1 from "../../public/images/background3.webp";
-import bgg2 from "../../public/images/andrzejki.webp";
+import bgg2 from "../../public/images/andrzejkiMobile.webp";
+import bgg3 from "../../public/images/andrzejki.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation, EffectFade, Autoplay } from "swiper";
@@ -34,8 +35,12 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide
-          className="bg-center bg-cover"
+          className="bg-center bg-cover 2xl:hidden"
           style={{ backgroundImage: `url(${bgg2})` }}
+        ></SwiperSlide>
+        <SwiperSlide
+          className="bg-center bg-cover hidden 2xl:block"
+          style={{ backgroundImage: `url(${bgg3})` }}
         ></SwiperSlide>
       </Swiper>
     </div>
