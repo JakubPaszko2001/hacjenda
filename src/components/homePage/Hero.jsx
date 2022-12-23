@@ -59,7 +59,7 @@ const Hero = () => {
                 data-aos-once
                 className="text-4xl sm:text-6xl lg:text-8xl"
               >
-                Ostatnie miejsca wolne !
+                Ostatnie wolne miejsca !
               </h1>
             </div>
           </div>
