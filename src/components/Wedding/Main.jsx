@@ -6,6 +6,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="flex flex-col justify-center lg:w-1/2 lg:h-[25rem] p-10"
       >
         <h1 class="font-title text-6xl mb-10">Wesela</h1>
@@ -23,6 +24,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="h-[20rem] lg:w-1/3 lg:m-auto lg:h-[25rem] p-10"
       >
         <img

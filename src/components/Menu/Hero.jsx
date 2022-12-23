@@ -9,6 +9,7 @@ const Hero = () => {
       <h1
         data-aos="fade-down"
         data-aos-duration="1500"
+        data-aos-once
         class="text-white sm:text-8xl text-5xl font-title"
       >
         Menu

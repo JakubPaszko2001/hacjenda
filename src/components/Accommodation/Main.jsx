@@ -37,10 +37,18 @@ const Main = () => {
     <div class="w-screen">
       <div class="flex flex-col w-4/5 m-auto font-regular mt-10 mb-10 lg:flex-row">
         <div class="flex flex-col justify-center bg-darkgreen p-4 lg:w-1/2">
-          <h1 class="text-gold font-title text-5xl mb-2">Pokoje noclegowe</h1>
           <h1
             data-aos="fade-up"
             data-aos-duration="1500"
+            data-aos-once
+            class="text-gold font-title text-5xl mb-2"
+          >
+            Pokoje noclegowe
+          </h1>
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-once
             class="text-gold lg:text-xl"
           >
             Zapraszamy do korzystania z naszego pensjonatu znajdującego się na

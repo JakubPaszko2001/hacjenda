@@ -9,6 +9,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="flex flex-col w-4/5 m-auto lg:flex-row lg:pb-20 lg:w-[95%] font-regular lg:mt-40"
       >
         <div class="w-full flex justify-center lg:pr-10">
@@ -124,6 +125,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="flex justify-center items-center w-4/5 m-auto pb-12 font-regular"
       >
         {/* <div class='w-1/6 bg-red-500'></div> */}

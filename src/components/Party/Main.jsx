@@ -9,6 +9,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="w-screen flex flex-col-reverse lg:flex-row"
       >
         <div class="flex justify-center items-center w-screen h-96 lg:w-1/2">
@@ -35,6 +36,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="w-screen flex flex-col-reverse lg:flex-row-reverse"
       >
         <div class="flex justify-center items-center w-screen h-96 lg:w-1/2">
@@ -64,6 +66,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="w-screen flex flex-col-reverse lg:flex-row"
       >
         <div class="flex justify-center items-center w-screen h-96 lg:w-1/2">
@@ -88,6 +91,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="w-screen flex flex-col-reverse lg:flex-row-reverse"
       >
         <div class="flex justify-center items-center w-screen h-96 lg:w-1/2">

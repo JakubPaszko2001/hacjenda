@@ -5,6 +5,7 @@ const Main = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
+        data-aos-once
         class="w-screen flex justify-center items-center text-gold font-title text-6xl lg:pb-2 lg:text-8xl"
       >
         Cennik
@@ -13,6 +14,7 @@ const Main = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
+          data-aos-once
           class="flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-sm xl:text-base 2xl:text-xl"
         >
           <h1 class="w-full flex justify-center items-center mb-2 mt-2 text-2xl font-regular border-t-2 border-b-2 border-gold  lg:mb-6 lg:mt-6 lg:border-none lg:underline">
@@ -44,6 +46,7 @@ const Main = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
+          data-aos-once
           class="flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-sm xl:text-base 2xl:text-xl"
         >
           <h1 class="w-full flex justify-center items-center mb-2 mt-2 text-2xl font-regular border-t-2 border-b-2 border-gold  lg:mb-6 lg:mt-6 lg:border-none lg:underline">
@@ -71,6 +74,7 @@ const Main = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
+          data-aos-once
           class="flex flex-col justify-center items-center text-gold lg:w-1/3 lg:text-sm xl:text-base 2xl:text-xl"
         >
           <h1 class="w-full flex justify-center items-center mb-2 mt-2 text-2xl font-regular border-t-2 border-b-2 border-gold  lg:mb-6 lg:mt-6 lg:border-none lg:underline">

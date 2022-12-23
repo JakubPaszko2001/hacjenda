@@ -13,10 +13,10 @@ const Invite = () => {
         </div>
         <div class="h-1/3">
           <div class="flex flex-col justify-center items-center text-4xl h-4/5 w-1/2 bg-lightgreen text-gold translate-x-[110%] translate-y-[-50%] lg:h-full  lg:text-6xl font-title">
-            <h1 data-aos="fade-up" data-aos-duration="1500">
+            <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-once>
               Zapraszamy
             </h1>
-            <h1 data-aos="fade-up" data-aos-duration="1500">
+            <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-once>
               do Hacjendy
             </h1>
           </div>

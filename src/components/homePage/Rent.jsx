@@ -4,7 +4,7 @@ const Rent = () => {
   return (
     <div className="w-screen">
       <div class="flex justify-center align-center w-screen pt-10 pb-10 text-5xl text-gold bg-darkgreen font-title lg:text-8xl lg:pb-20 lg:pt-20">
-        <h1 data-aos="fade-up" data-aos-duration="1500">
+        <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-once>
           Wynajem sali weselnej
         </h1>
       </div>
@@ -13,6 +13,7 @@ const Rent = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="1500"
+            data-aos-once
             class="pb-8 font-title text-5xl lg:pl-10"
           >
             Chrzciny
@@ -20,11 +21,12 @@ const Rent = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="1500"
+            data-aos-once
             class="pb-4 font-regular"
           >
             Chrzest dziecka to wydarzenie, które zasługuję na wyjątkową oprawę.
           </h1>
-          <h1 data-aos="fade-up" data-aos-duration="1500">
+          <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-once>
             Przeżyjmy ten dzień wspólnie w Hacjendzie.
           </h1>
         </div>
@@ -33,6 +35,7 @@ const Rent = () => {
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
+              data-aos-once
               class="pb-8 font-title text-5xl"
             >
               Imprezy okolicznosciowe
@@ -41,6 +44,7 @@ const Rent = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="1500"
+            data-aos-once
             class="pb-4 font-regular"
           >
             Wszelkie imprezy okolicznościowe będą przeżyciem niezapomnianym
@@ -51,6 +55,7 @@ const Rent = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="1500"
+            data-aos-once
             class="pb-8 font-title text-5xl lg:pl-10"
           >
             Wesela
@@ -58,6 +63,7 @@ const Rent = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="1500"
+            data-aos-once
             class="pb-4 font-regular"
           >
             Każda Para Młoda pragnię, aby jej przyjęcie weselne było przeżyciem
@@ -65,7 +71,7 @@ const Rent = () => {
             rozpoczyna od wyboru idealnego miejsca na wesele. Takim miejscem
             jest nasza Hacjenda, do którego serdecznie Państwa zapraszamy.
           </h1>
-          <h1 data-aos="fade-up" data-aos-duration="1500">
+          <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-once>
             Odwiedź Hacjendę i zapoznaj się z naszą ofertą
           </h1>
         </div>
